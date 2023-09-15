@@ -16,6 +16,8 @@
 		A0F9D4242AB5178A00B4572F /* IsItACatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9D4232AB5178A00B4572F /* IsItACatTests.swift */; };
 		A0F9D42E2AB5178A00B4572F /* IsItACatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9D42D2AB5178A00B4572F /* IsItACatUITests.swift */; };
 		A0F9D4302AB5178A00B4572F /* IsItACatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9D42F2AB5178A00B4572F /* IsItACatUITestsLaunchTests.swift */; };
+		A0F9D43D2AB517C700B4572F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9D43C2AB517C700B4572F /* AppCoordinator.swift */; };
+		A0F9D43F2AB5185A00B4572F /* YOLOv3FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A0F9D43E2AB5185A00B4572F /* YOLOv3FP16.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A0F9D4292AB5178A00B4572F /* IsItACatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IsItACatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F9D42D2AB5178A00B4572F /* IsItACatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsItACatUITests.swift; sourceTree = "<group>"; };
 		A0F9D42F2AB5178A00B4572F /* IsItACatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsItACatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0F9D43C2AB517C700B4572F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A0F9D43E2AB5185A00B4572F /* YOLOv3FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3FP16.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		A0F9D40B2AB5178800B4572F /* IsItACat */ = {
 			isa = PBXGroup;
 			children = (
+				A0F9D43E2AB5185A00B4572F /* YOLOv3FP16.mlmodel */,
 				A0F9D40C2AB5178800B4572F /* AppDelegate.swift */,
 				A0F9D40E2AB5178800B4572F /* SceneDelegate.swift */,
 				A0F9D4102AB5178800B4572F /* ViewController.swift */,
+				A0F9D43C2AB517C700B4572F /* AppCoordinator.swift */,
 				A0F9D4122AB5178800B4572F /* Main.storyboard */,
 				A0F9D4152AB5178A00B4572F /* Assets.xcassets */,
 				A0F9D4172AB5178A00B4572F /* LaunchScreen.storyboard */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F9D43D2AB517C700B4572F /* AppCoordinator.swift in Sources */,
 				A0F9D4112AB5178800B4572F /* ViewController.swift in Sources */,
+				A0F9D43F2AB5185A00B4572F /* YOLOv3FP16.mlmodel in Sources */,
 				A0F9D40D2AB5178800B4572F /* AppDelegate.swift in Sources */,
 				A0F9D40F2AB5178800B4572F /* SceneDelegate.swift in Sources */,
 			);
